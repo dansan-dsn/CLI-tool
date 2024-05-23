@@ -2,19 +2,22 @@
   "name": "cli",
   "version": "1.0.0",
   "description": "",
-  "main": "coindex.js",
-  "bin": "./bin/coindex.js",
+  "main": "index.js",
+  "bin": {
+    "coindex": "./bin/coindex.js"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dansan-dsn/CLI-tool.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "axios": "^1.7.2",
-    "colors": "^1.4.0",
-    "commander": "^12.1.0",
-    "configstore": "^6.0.0",
-    "inquirer": "^9.2.22"
-  }
+  "bugs": {
+    "url": "https://github.com/dansan-dsn/CLI-tool/issues"
+  },
+  "homepage": "https://github.com/dansan-dsn/CLI-tool#readme"
 }
